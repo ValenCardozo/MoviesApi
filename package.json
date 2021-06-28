@@ -1,0 +1,23 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Movies API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValenCardozo/MoviesApi.git"
+  },
+  "author": "ValenCardozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValenCardozo/MoviesApi/issues"
+  },
+  "homepage": "https://github.com/ValenCardozo/MoviesApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
