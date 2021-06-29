@@ -22,7 +22,7 @@ app.get('/movies', (request, response) => {
 		}
 
 		const movies = JSON.parse(file);
-		return res.json(movies);
+		return response.json(movies);
 	});
 });
 
@@ -81,7 +81,7 @@ app.patch('/movie/:id', (request, response) => {
 
 				const movieUpdated = JSON.stringify(movies, null, 2);
 
-				fs.wirteFile('movies.json', movieUpdated, (error) => {
+				fs.writeFile('movies.json', movieUpdated, (error) => {
 
 					if (error) {
 						console.log('Error no se puede leer el archivo', error);
